@@ -1,0 +1,706 @@
+{"data":
+  [
+    {
+      "id": {
+        "S": "72b78dea-dc54-4cb9-9614-25460510664a"
+      },
+      "apiTraceId": {
+        "S": "YvTN7eMWndLIeNN146SmmgAAAss"
+      },
+      "approveCurrency": {
+        "S": ""
+      },
+      "approveTotal": {
+        "S": ""
+      },
+      "authorizationCode": {
+        "S": ""
+      },
+      "AWSDateTime": {
+        "S": "2022-08-11T09:37:41.996Z"
+      },
+      "CardNumber": {
+        "S": "4005520000000129"
+      },
+      "clientLocale": {
+        "S": ""
+      },
+      "clientRequestId": {
+        "S": "97d8a122-fb0c-4d4c-a60f-3c7cd772ea62"
+      },
+      "comments": {
+        "S": ""
+      },
+      "currencyConversion": {
+        "S": ""
+      },
+      "dynamicMerchantName": {
+        "S": ""
+      },
+      "ExpiryDate": {
+        "M": {
+          "month": {
+            "N": "10"
+          },
+          "year": {
+            "N": "22"
+          }
+        }
+      },
+      "frequency": {
+        "S": ""
+      },
+      "invoiceNumber": {
+        "S": ""
+      },
+      "ipgTransactionId": {
+        "S": "84605369626"
+      },
+      "isDeleted": {
+        "BOOL": false
+      },
+      "maximumFailures": {
+        "S": ""
+      },
+      "merchantID": {
+        "S": "d8594343-4eef-48e9-abfb-d04634396aa9"
+      },
+      "numberOfPayments": {
+        "S": ""
+      },
+      "orderId": {
+        "S": "R-ee4e9702-8e55-4f89-8d6a-8f1904cbdd18"
+      },
+      "paymentMethod": {
+        "S": ""
+      },
+      "purchaseOrderNumber": {
+        "S": ""
+      },
+      "requestDate": {
+        "S": ""
+      },
+      "requestID": {
+        "S": ""
+      },
+      "RequestType": {
+        "S": ""
+      },
+      "requestType": {
+        "S": "PaymentCardSaleTransaction"
+      },
+      "responseCode": {
+        "S": ""
+      },
+      "responseMessage": {
+        "S": ""
+      },
+      "runCount": {
+        "N": "2"
+      },
+      "schemeTransactionId": {
+        "S": ""
+      },
+      "SecurityCode": {
+        "S": "002"
+      },
+      "startDate": {
+        "S": ""
+      },
+      "state": {
+        "S": ""
+      },
+      "statusCode": {
+        "S": ""
+      },
+      "statusDetail": {
+        "S": ""
+      },
+      "storeId": {
+        "S": ""
+      },
+      "taCurrency": {
+        "S": "USD"
+      },
+      "taTotal": {
+        "N": "1200"
+      },
+      "TransactionOrigin": {
+        "S": ""
+      },
+      "transactionOrigin": {
+        "S": "ECOM"
+      },
+      "transactionStatus": {
+        "S": "WAITING"
+      },
+      "transactionTime": {
+        "S": "1970-01-20T05:10:10.665Z"
+      },
+      "transactionType": {
+        "S": "SALE"
+      }
+    },
+    {
+      "id": {
+        "S": "5ca412f4-895b-469e-9b16-fa2161bbfab4"
+      },
+      "apiTraceId": {
+        "S": "YvTOIRTzHRRrsgLYujrQ@wAAAsw"
+      },
+      "approveCurrency": {
+        "S": "USD"
+      },
+      "approveTotal": {
+        "N": "1200"
+      },
+      "authorizationCode": {
+        "S": ""
+      },
+      "AWSDateTime": {
+        "S": "2022-08-11T09:38:25.176Z"
+      },
+      "CardNumber": {
+        "S": "4005520000000129"
+      },
+      "clientLocale": {
+        "S": ""
+      },
+      "clientRequestId": {
+        "S": "bb6afeb1-147f-4599-b686-32091b87f071"
+      },
+      "comments": {
+        "S": ""
+      },
+      "currencyConversion": {
+        "S": ""
+      },
+      "dynamicMerchantName": {
+        "S": ""
+      },
+      "ExpiryDate": {
+        "M": {
+          "month": {
+            "N": "10"
+          },
+          "year": {
+            "N": "22"
+          }
+        }
+      },
+      "frequency": {
+        "S": ""
+      },
+      "invoiceNumber": {
+        "S": ""
+      },
+      "ipgTransactionId": {
+        "S": "84605369667"
+      },
+      "isDeleted": {
+        "BOOL": false
+      },
+      "maximumFailures": {
+        "S": ""
+      },
+      "merchantID": {
+        "S": "d8594343-4eef-48e9-abfb-d04634396aa9"
+      },
+      "numberOfPayments": {
+        "S": ""
+      },
+      "orderId": {
+        "S": "R-7523e794-89a2-4b04-80c6-34af00532685"
+      },
+      "paymentMethod": {
+        "S": ""
+      },
+      "purchaseOrderNumber": {
+        "S": ""
+      },
+      "requestDate": {
+        "S": ""
+      },
+      "requestID": {
+        "S": ""
+      },
+      "RequestType": {
+        "S": ""
+      },
+      "requestType": {
+        "S": "PaymentCardSaleTransaction"
+      },
+      "responseCode": {
+        "S": ""
+      },
+      "responseMessage": {
+        "S": ""
+      },
+      "runCount": {
+        "N": "3"
+      },
+      "schemeTransactionId": {
+        "S": "818644880782867"
+      },
+      "SecurityCode": {
+        "S": "002"
+      },
+      "startDate": {
+        "S": ""
+      },
+      "state": {
+        "S": ""
+      },
+      "statusCode": {
+        "S": ""
+      },
+      "statusDetail": {
+        "S": ""
+      },
+      "storeId": {
+        "S": ""
+      },
+      "taCurrency": {
+        "S": "USD"
+      },
+      "taTotal": {
+        "N": "1200"
+      },
+      "TransactionOrigin": {
+        "S": ""
+      },
+      "transactionOrigin": {
+        "S": "ECOM"
+      },
+      "transactionStatus": {
+        "S": "APPROVED"
+      },
+      "transactionTime": {
+        "S": "1970-01-20T05:10:10.707Z"
+      },
+      "transactionType": {
+        "S": "SALE"
+      }
+    },
+    {
+      "id": {
+        "S": "5ed0c8a6-17f7-4f87-a04b-d65e6c68f477"
+      },
+      "apiTraceId": {
+        "S": "YvSxg0@aNn-QmxhVvzS53QAAA2o"
+      },
+      "approveCurrency": {
+        "S": "USD"
+      },
+      "approveTotal": {
+        "N": "1200"
+      },
+      "authorizationCode": {
+        "S": ""
+      },
+      "AWSDateTime": {
+        "S": "2022-08-11T07:36:23.295Z"
+      },
+      "CardNumber": {
+        "S": "4005520000000129"
+      },
+      "clientLocale": {
+        "S": ""
+      },
+      "clientRequestId": {
+        "S": "0ab7c327-6aa1-4dec-bf9f-7730bf6903ec"
+      },
+      "comments": {
+        "S": ""
+      },
+      "currencyConversion": {
+        "S": ""
+      },
+      "dynamicMerchantName": {
+        "S": ""
+      },
+      "ExpiryDate": {
+        "M": {
+          "month": {
+            "N": "10"
+          },
+          "year": {
+            "N": "22"
+          }
+        }
+      },
+      "frequency": {
+        "S": ""
+      },
+      "invoiceNumber": {
+        "S": ""
+      },
+      "ipgTransactionId": {
+        "S": "84605360825"
+      },
+      "isDeleted": {
+        "BOOL": false
+      },
+      "maximumFailures": {
+        "S": ""
+      },
+      "merchantID": {
+        "S": "d8594343-4eef-48e9-abfb-d04634396aa9"
+      },
+      "numberOfPayments": {
+        "S": ""
+      },
+      "orderId": {
+        "S": "R-9478d887-3981-4b47-b7b9-4b2f95976df2"
+      },
+      "paymentMethod": {
+        "S": ""
+      },
+      "purchaseOrderNumber": {
+        "S": ""
+      },
+      "requestDate": {
+        "S": ""
+      },
+      "requestID": {
+        "S": ""
+      },
+      "RequestType": {
+        "S": ""
+      },
+      "requestType": {
+        "S": "PaymentCardSaleTransaction"
+      },
+      "responseCode": {
+        "S": ""
+      },
+      "responseMessage": {
+        "S": ""
+      },
+      "runCount": {
+        "N": "3"
+      },
+      "schemeTransactionId": {
+        "S": "359804733069162"
+      },
+      "SecurityCode": {
+        "S": "002"
+      },
+      "startDate": {
+        "S": ""
+      },
+      "state": {
+        "S": ""
+      },
+      "statusCode": {
+        "S": ""
+      },
+      "statusDetail": {
+        "S": ""
+      },
+      "storeId": {
+        "S": ""
+      },
+      "taCurrency": {
+        "S": "USD"
+      },
+      "taTotal": {
+        "N": "1200"
+      },
+      "TransactionOrigin": {
+        "S": ""
+      },
+      "transactionOrigin": {
+        "S": "ECOM"
+      },
+      "transactionStatus": {
+        "S": "APPROVED"
+      },
+      "transactionTime": {
+        "S": "1970-01-20T05:10:03.385Z"
+      },
+      "transactionType": {
+        "S": "SALE"
+      }
+    },
+    {
+      "id": {
+        "S": "70827a76-3eb9-4262-888a-34058b148fb3"
+      },
+      "apiTraceId": {
+        "S": "YvSyMo6nFJmPsRlrSuw9tAAAAzg"
+      },
+      "approveCurrency": {
+        "S": "USD"
+      },
+      "approveTotal": {
+        "N": "1200"
+      },
+      "authorizationCode": {
+        "S": ""
+      },
+      "AWSDateTime": {
+        "S": "2022-08-11T07:36:23.295Z"
+      },
+      "CardNumber": {
+        "S": "4005520000000129"
+      },
+      "clientLocale": {
+        "S": ""
+      },
+      "clientRequestId": {
+        "S": "f96c694a-7389-4eb3-9574-6149d4172c41"
+      },
+      "comments": {
+        "S": ""
+      },
+      "currencyConversion": {
+        "S": ""
+      },
+      "dynamicMerchantName": {
+        "S": ""
+      },
+      "ExpiryDate": {
+        "M": {
+          "month": {
+            "N": "10"
+          },
+          "year": {
+            "N": "22"
+          }
+        }
+      },
+      "frequency": {
+        "S": ""
+      },
+      "invoiceNumber": {
+        "S": ""
+      },
+      "ipgTransactionId": {
+        "S": "84605361501"
+      },
+      "isDeleted": {
+        "BOOL": false
+      },
+      "maximumFailures": {
+        "S": ""
+      },
+      "merchantID": {
+        "S": "d8594343-4eef-48e9-abfb-d04634396aa9"
+      },
+      "numberOfPayments": {
+        "S": ""
+      },
+      "orderId": {
+        "S": "R-3791dce9-f16b-4f9a-8cb2-a8c4f577e02f"
+      },
+      "paymentMethod": {
+        "S": ""
+      },
+      "purchaseOrderNumber": {
+        "S": ""
+      },
+      "requestDate": {
+        "S": ""
+      },
+      "requestID": {
+        "S": ""
+      },
+      "RequestType": {
+        "S": ""
+      },
+      "requestType": {
+        "S": "PaymentCardSaleTransaction"
+      },
+      "responseCode": {
+        "S": ""
+      },
+      "responseMessage": {
+        "S": ""
+      },
+      "runCount": {
+        "N": "3"
+      },
+      "schemeTransactionId": {
+        "S": "169049469338008"
+      },
+      "SecurityCode": {
+        "S": "002"
+      },
+      "startDate": {
+        "S": ""
+      },
+      "state": {
+        "S": ""
+      },
+      "statusCode": {
+        "S": ""
+      },
+      "statusDetail": {
+        "S": ""
+      },
+      "storeId": {
+        "S": ""
+      },
+      "taCurrency": {
+        "S": "USD"
+      },
+      "taTotal": {
+        "N": "1200"
+      },
+      "TransactionOrigin": {
+        "S": ""
+      },
+      "transactionOrigin": {
+        "S": "ECOM"
+      },
+      "transactionStatus": {
+        "S": "APPROVED"
+      },
+      "transactionTime": {
+        "S": "1970-01-20T05:10:03.557Z"
+      },
+      "transactionType": {
+        "S": "SALE"
+      }
+    },
+    {
+      "id": {
+        "S": "52c61291-0513-4745-9e3a-aeb5b953b7c7"
+      },
+      "apiTraceId": {
+        "S": "YvTojOUq3ZlNZ7lu55DwOAAAAls"
+      },
+      "approveCurrency": {
+        "S": "USD"
+      },
+      "approveTotal": {
+        "N": "1200"
+      },
+      "authorizationCode": {
+        "S": ""
+      },
+      "AWSDateTime": {
+        "S": "2022-08-11T11:30:50.044Z"
+      },
+      "CardNumber": {
+        "S": "4005520000000129"
+      },
+      "clientLocale": {
+        "S": ""
+      },
+      "clientRequestId": {
+        "S": "3cb84446-f2a1-4766-beba-a7a3becda32e"
+      },
+      "comments": {
+        "S": ""
+      },
+      "currencyConversion": {
+        "S": ""
+      },
+      "dynamicMerchantName": {
+        "S": ""
+      },
+      "ExpiryDate": {
+        "M": {
+          "month": {
+            "N": "10"
+          },
+          "year": {
+            "N": "22"
+          }
+        }
+      },
+      "frequency": {
+        "S": ""
+      },
+      "invoiceNumber": {
+        "S": ""
+      },
+      "ipgTransactionId": {
+        "S": "84605376548"
+      },
+      "isDeleted": {
+        "BOOL": false
+      },
+      "maximumFailures": {
+        "S": ""
+      },
+      "numberOfPayments": {
+        "S": ""
+      },
+      "orderId": {
+        "S": "R-5ae90bcb-71d5-43d6-a6eb-30ad2e78aee6"
+      },
+      "paymentMethod": {
+        "S": ""
+      },
+      "purchaseOrderNumber": {
+        "S": ""
+      },
+      "requestDate": {
+        "S": ""
+      },
+      "requestID": {
+        "S": ""
+      },
+      "RequestType": {
+        "S": ""
+      },
+      "requestType": {
+        "S": "PaymentCardSaleTransaction"
+      },
+      "responseCode": {
+        "S": ""
+      },
+      "responseMessage": {
+        "S": ""
+      },
+      "runCount": {
+        "N": "3"
+      },
+      "schemeTransactionId": {
+        "S": "298049469192587"
+      },
+      "SecurityCode": {
+        "S": "002"
+      },
+      "startDate": {
+        "S": ""
+      },
+      "state": {
+        "S": ""
+      },
+      "statusCode": {
+        "S": ""
+      },
+      "statusDetail": {
+        "S": ""
+      },
+      "storeId": {
+        "S": ""
+      },
+      "taCurrency": {
+        "S": "USD"
+      },
+      "taTotal": {
+        "N": "1200"
+      },
+      "TransactionOrigin": {
+        "S": ""
+      },
+      "transactionOrigin": {
+        "S": "ECOM"
+      },
+      "transactionStatus": {
+        "S": "APPROVED"
+      },
+      "transactionTime": {
+        "S": "2022-08-11T11:30:53.000Z"
+      },
+      "transactionType": {
+        "S": "SALE"
+      }
+    }
+  ]
+}
