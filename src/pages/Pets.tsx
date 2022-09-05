@@ -6,8 +6,6 @@ let index = 1
 
 const Pets = () => {
     let [pet, setPet] = useState([])
-    let [nextDisbale, setNextDisable] = useState(false)
-    let [prevDisbale, setPrevDisable] = useState(false)
 
     useEffect(() => {
         pets()
@@ -17,23 +15,6 @@ const Pets = () => {
         await getPets(index).then(res => {
             setPet(res.data.response)
         })
-    }
-
-    const prev = () => {
-        setNextDisable(false)
-        if (index - 1 > 0) {
-            index -= 1
-            pets()
-        } else {
-            index = 1
-            setPrevDisable(true)
-        }
-    }
-
-    const next = () => {
-        setPrevDisable(false)
-        index += 1
-        pets()
     }
 
     return (
@@ -62,10 +43,6 @@ const Pets = () => {
                     ))}
                 </tbody>
             </Table>
-            <nav aria-label="Page navigation example">
-            <button disabled={prevDisbale} onClick={prev}  aria-label="Previous"> <span aria-hidden="true" >&laquo;</span> </button>
-            <button  aria-label="Previous" disabled={nextDisbale} onClick={next}> <span aria-hidden="true" >&raquo;</span> </button>
-            </nav>
         </Card>
     )
 }

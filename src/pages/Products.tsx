@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card, Col, Container, Row, Table } from "react-bootstrap";
+import { Card, Col, Container, Row, Table, Button } from "react-bootstrap";
 import { getProducts } from "../api/product";
 let index = 1
 
@@ -13,7 +13,7 @@ const Products = () => {
         products()
     }, [])
 
-    const products = async()=>{
+    const products = async () => {
         await getProducts(index).then(res => {
             setProduct(res.data.response)
         })
@@ -59,8 +59,8 @@ const Products = () => {
                 </tbody>
             </Table>
             <nav aria-label="Page navigation example">
-            <button disabled={prevDisbale} onClick={prev}  aria-label="Previous"> <span aria-hidden="true" >&laquo;</span> </button>
-            <button  aria-label="Previous" disabled={nextDisbale} onClick={next}> <span aria-hidden="true" >&raquo;</span> </button>
+                <button disabled={prevDisbale} onClick={prev} aria-label="Previous"> <span aria-hidden="true" >&laquo;</span> </button>
+                <button aria-label="Previous" disabled={nextDisbale} onClick={next}> <span aria-hidden="true" >&raquo;</span> </button>
             </nav>
         </Card>
     )

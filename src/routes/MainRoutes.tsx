@@ -14,6 +14,7 @@ import PetReviews from "../pages/PetReviews"
 import Products from "../pages/Products"
 import ProductReviews from "../pages/ProductReviews"
 import Offers from "../pages/Offers"
+import ViewReviews from "../pages/ViewReviews"
 
 // render - dashboard
 const DashboardDefault = Loadable(lazy(() => import('../pages/dashboard')));
@@ -66,12 +67,16 @@ const MainRoutes = {
             element: <PetReviews/>
         },
         {
-            path: 'product-reviews',
-            element: <ProductReviews/>
-        },
-        {
             path: 'offers',
             element: <Offers/>
+        },
+        {
+            path: 'product-review/:id',
+            element: <ViewReviews/>
+        },
+        {
+            path: 'product-reviews',
+            element: <ProductReviews/>
         }
     ]
 };

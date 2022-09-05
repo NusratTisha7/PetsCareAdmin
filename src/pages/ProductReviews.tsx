@@ -1,34 +1,31 @@
 import { useEffect, useState } from "react";
-import { Card, Col, Container, Row, Table } from "react-bootstrap";
-import { productReview } from "../api/review";
+import { Card, Col, Container, Row, Table, Button } from "react-bootstrap";
+import { getProducts } from "../api/product";
+import { useNavigate } from 'react-router-dom';
 let index = 1
 
 
 const ProductReviews = () => {
-    let [pet, setPet] = useState([])
+    const navigate = useNavigate();
+    let [product, setProduct] = useState([])
     let [nextDisbale, setNextDisable] = useState(false)
     let [prevDisbale, setPrevDisable] = useState(false)
 
     useEffect(() => {
-        pets()
+        products()
     }, [])
 
-    const pets = async () => {
-        let data = {
-            searchTrm: "productID",
-            value: "3",
-            index
-        }
-        // await productReview(data).then(res => {
-        //     setPet(res.data.response)
-        // })
+    const products = async () => {
+        await getProducts(index).then(res => {
+            setProduct(res.data.response)
+        })
     }
 
     const prev = () => {
         setNextDisable(false)
         if (index - 1 > 0) {
             index -= 1
-            pets()
+            products()
         } else {
             index = 1
             setPrevDisable(true)
@@ -38,7 +35,13 @@ const ProductReviews = () => {
     const next = () => {
         setPrevDisable(false)
         index += 1
-        pets()
+        products()
+    }
+
+    const viewReviews = (id: any) => {
+        return (event: React.MouseEvent) => {
+        navigate(`/product-review/${id}`);
+        }
     }
 
     return (
@@ -46,23 +49,17 @@ const ProductReviews = () => {
             <Table responsive="sm">
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Name</th>
-                        <th>Description</th>
-                        <th>Breed</th>
-                        <th>Birth Date</th>
-                        <th>Gender</th>
-                        <th>Weight</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
-                    {pet && pet.map((item: any, index) => (
+                    {product && product.map((item: any, index) => (
                         <tr key={index}>
+                            <td>{item.id}</td>
                             <td>{item.name}</td>
-                            <td>{item.description}</td>
-                            <td>{item.breed}</td>
-                            <td>{item.birthDate}</td>
-                            <td>{item.gender}</td>
-                            <td>{item.weight}</td>
+                            <td><Button onClick={viewReviews(item.id)}>View Reviews</Button></td>
                         </tr>
                     ))}
                 </tbody>
