@@ -8,6 +8,10 @@ const ViewReviews = () => {
   let { id } = useParams();
 
   useEffect(() => {
+    reviewInit()
+  }, [])
+
+  const reviewInit = ()=>{
     let data = {
       searchTrm: "productID",
       value: id
@@ -15,17 +19,21 @@ const ViewReviews = () => {
     productReview(data).then(res => {
       setReview(res.data.response)
     })
-  }, [review])
+  }
 
-  const hide = (id: any) => {
+  const hide = (reviewId: any) => {
     return (event: React.MouseEvent) => {
       let data = {
         activeStatus: 0,
-        id: id
+        id: reviewId
       }
-      hideReview(data)
+      
+      hideReview(data).then(res=>reviewInit())
     }
   }
+
+
+  console.log(review)
 
   return (
     <Card className='p-5'>
@@ -44,7 +52,12 @@ const ViewReviews = () => {
               <td>{item.email}</td>
               <td>{item.rating}</td>
               <td>{item.review}</td>
-              <td><Button onClick={hide(item.id)}>Hide</Button></td>
+              {item.isActive===1 &&(
+                <td><Button onClick={hide(item.id)}>Hide</Button></td>
+              )}
+              {item.isActive===0 &&(
+                <td><Button>Hidden</Button></td>
+              )}
             </tr>
           ))}
         </tbody>
